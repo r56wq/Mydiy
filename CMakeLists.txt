@@ -11,6 +11,8 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 add_executable(
         diylib_executable
         Src/Sorting/mergeSort.cpp
+        include/Sorting/Sortings.hpp
+        include/Sorting/Sorting.tpp
         # Add other source files as needed
 )
 

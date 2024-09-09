@@ -56,6 +56,13 @@ build CMakeFiles/diylib_executable.dir/Src/Sorting/mergeSort.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\diylib_executable.dir
   OBJECT_FILE_DIR = CMakeFiles\diylib_executable.dir\Src\Sorting
 
+build CMakeFiles/diylib_executable.dir/include/Sorting/Sorting.tpp.cpp.obj: CXX_COMPILER__diylib_executable_unscanned_Debug D$:/chen/diylib/include/Sorting/Sorting.tpp.cpp || cmake_object_order_depends_target_diylib_executable
+  DEP_FILE = CMakeFiles\diylib_executable.dir\include\Sorting\Sorting.tpp.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/chen/diylib/include
+  OBJECT_DIR = CMakeFiles\diylib_executable.dir
+  OBJECT_FILE_DIR = CMakeFiles\diylib_executable.dir\include\Sorting
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target diylib_executable
@@ -64,7 +71,7 @@ build CMakeFiles/diylib_executable.dir/Src/Sorting/mergeSort.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable diylib_executable.exe
 
-build diylib_executable.exe: CXX_EXECUTABLE_LINKER__diylib_executable_Debug CMakeFiles/diylib_executable.dir/Src/Sorting/mergeSort.cpp.obj
+build diylib_executable.exe: CXX_EXECUTABLE_LINKER__diylib_executable_Debug CMakeFiles/diylib_executable.dir/Src/Sorting/mergeSort.cpp.obj CMakeFiles/diylib_executable.dir/include/Sorting/Sorting.tpp.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\diylib_executable.dir
